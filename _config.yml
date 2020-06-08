@@ -28,6 +28,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: langrjaku
 github_username:  jakublangr
 
+people:
 - name: Jakub Langr
   pic: 4
   position: CEO & Research Scientist
