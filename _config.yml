@@ -28,6 +28,24 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: langrjaku
 github_username:  jakublangr
 
+- name: Jakub Langr
+  pic: 1
+  position: CEO & Research Scientist
+  social:
+    - title: twitter
+      url: twitter.com/langrjakub
+    - title: linkedin
+      url: https://www.linkedin.com/in/jakublangr/
+
+- name: Dr. James Hennessey
+  pic: 2
+  position: CTO & Research Scientist
+  social:
+    - title: twitter
+      url: #
+    - title: linkedin
+      url: https://www.linkedin.com/in/james-hennessey-2357391a/
+
 # Build settings
 theme: minima
 plugins:
