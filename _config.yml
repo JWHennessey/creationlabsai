@@ -19,13 +19,12 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Better Synthetic Data Platform
-email: jakub@creationlabs.ai
+email: "jakub@creationlabs.ai"
 description: >- # this means to ignore newlines until "baseurl:"
-  Better synthetic data platform for computer vision.
-  Custom, yet scalable. Private, unbiased and explainable.
+  "Better synthetic data platform for computer vision. Custom, yet scalable. Private, unbiased and explainable."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: langrjaku
+twitter_username: langrjakub
 github_username:  jakublangr
 
 people:
@@ -36,7 +35,7 @@ people:
     - title: twitter
       url: twitter.com/langrjakub
     - title: linkedin
-      url: https://www.linkedin.com/in/jakublangr/
+      url: "https://www.linkedin.com/in/jakublangr/"
 
 - name: Dr. James Hennessey
   pic: 5
@@ -45,7 +44,7 @@ people:
     - title: twitter
       url: #
     - title: linkedin
-      url: https://www.linkedin.com/in/james-hennessey-2357391a/
+      url: "https://www.linkedin.com/in/james-hennessey-2357391a/"
 
 # Build settings
 theme: minima
