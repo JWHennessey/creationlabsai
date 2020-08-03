@@ -1,20 +1,19 @@
----
-layout: default
----
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<div class="home">
+    <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
 
-  <h1>Posts</h1>
-
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>CREATION LABS</title>
+  </head>
+  <body>
+      <div class='circle' >
+        <h1>Creation Labs</h1>
+        <a href="mailto:hello@creationlabs.ai" target="_top">contact us</a>
+      </div>
+  </body>
+</html>
