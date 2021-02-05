@@ -46,6 +46,10 @@ a,
   transition: all 0.125s ease-in-out 0s;
 }
 
+#cl-nav{
+  padding: 10px 0;
+}
+
 .client-logo,
 .gallery-caption,
 .gallery-image:after,
@@ -163,7 +167,7 @@ a,
 .module,
 .module-small {
   position: relative;
-  padding: 140px 0;
+  padding: 160px 0;
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
@@ -2052,7 +2056,7 @@ Google map
 }
 
 .callout-btn-box {
-  text-align: right;
+  text-align: center;
   padding-top: 4px;
 }
 
