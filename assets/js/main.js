@@ -1,5 +1,6 @@
 console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55');
 
+
 /* ---------------------------------------------- /*
  * Preloader
  /* ---------------------------------------------- */
@@ -849,3 +850,10 @@ console.log('%c Proudly Crafted with ZiOn.', 'background: #222; color: #bada55')
 })(jQuery);
 
 
+$('.progress-bar').each(function() {
+    var min = $(this).attr('aria-valuemin');
+    var max = $(this).attr('aria-valuemax');
+    var now = $(this).attr('aria-valuenow');
+    var siz = (now-min)*100/(max-min);
+    $(this).css('width', siz+'%');
+  });
